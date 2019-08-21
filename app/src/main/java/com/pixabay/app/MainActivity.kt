@@ -78,12 +78,15 @@ class MainActivity : BaseActivity(), PixabyListAdapter.ItemClick {
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
 
             override fun onQueryTextChange(newText: String): Boolean {
+                /*if (newText.length > 2){ //if you want to get the on every text change uncomment it
+                    setSearch(query)
+                }*/
                 return false
             }
 
             override fun onQueryTextSubmit(query: String): Boolean {
                 // task HERE
-                if (query.length > 3){
+                if (query.length > 2){
                     setSearch(query)
                 }else{
                     Toast.makeText(this@MainActivity, getString(R.string.alert_search_length), Toast.LENGTH_LONG).show()

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Pixabay</string>
 
-    <string name="alert_search_length">Length must be greater than 3 words</string>
+    <string name="alert_search_length">Length must be greater than 2 words</string>
     <string name="views">Views:</string>
     <string name="tags">TAGS:</string>
     <string name="no_items_to_display">No Items to display</string>
