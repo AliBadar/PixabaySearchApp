@@ -37,7 +37,7 @@ KNOWN ISSUES:
       
 	 * While the APIs are working fine on other devices, its getting issue only in android P device.
 	 
-	 * I am not good at unit testing so thats why could not add alot of test cases, so kindly ignore this section for the time if possible
+	 * I could not work on test cases for UNIT TESTING because I was having some issues while doing UNIT TEST, so because short time issue I could not complete it, so kindly ignore this section for the time if possible.
 	 
 	 
 	 
